@@ -17,7 +17,7 @@ const Sidebar: React.FC = () => {
   return (
     <div className="w-64 bg-gray-900 h-screen fixed left-0 top-0 text-white">
       <div className="p-4">
-        <img src="/logo.png" alt="天机" className="h-12 mb-8" />
+        <img src="../../logo.png" alt="天机" className="h-12 mb-8" />
         
         <nav className="space-y-2">
           {menuItems.map((item) => (

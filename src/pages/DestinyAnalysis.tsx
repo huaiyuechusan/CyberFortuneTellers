@@ -20,7 +20,7 @@ const DestinyAnalysis: React.FC = () => {
       <div className="w-64 bg-gray-900 h-full fixed left-0 top-0 z-10 p-4">
         {/* 添加logo */}
         <div className="mb-8">
-          <img src="/logo.png" alt="参天" className="h-8" />
+          <img src={`${process.env.PUBLIC_URL}/image/logo.png`} alt="天机" className="h-8" />
         </div>
         
         {/* 添加菜单项 */}
